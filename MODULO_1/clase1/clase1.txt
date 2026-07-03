@@ -1,0 +1,98 @@
+Del JDK a la Inteligencia Artificial
+Dev Senior Code · Java AI Engineer · Clase 1
+Fundamentos de Java, herramientas de desarrollo y el camino hacia convertirte en un Java AI Engineer.
+
+Definición
+El JDK (Java Development Kit) es el kit de desarrollo oficial de Java. Incluye todo lo necesario para crear aplicaciones: compilador, bibliotecas, herramientas de depuración y el entorno de ejecución.
+Componentes principales
+* ?? Compilador (javac): convierte código Java en bytecode ejecutable.
+* ?? Java Runtime (JRE): ejecuta aplicaciones Java en cualquier plataforma.
+* ?? Herramientas: depuración, javadoc, jar, profiling y más.
+* ?? Librerías: clases y APIs esenciales de Java.
+JDK vs JRE — La analogía del conductor
+JRE JDK Analogía Solo quieres conducir el auto Quieres fabricar automóviles Propósito Ejecutar aplicaciones Java Crear y compilar aplicaciones Alcance No necesitas crear software Incluye el JRE + herramientas de desarrollo Público Para usuarios finales Para desarrolladores
+Ediciones de Java
+* Java SE — Standard Edition ?? El automóvil familiar. Edición estándar para aplicaciones de escritorio, herramientas y programas generales. Punto de partida de todo desarrollador Java.
+* Java EE — Enterprise Edition ?? El camión empresarial. Para bancos, aerolíneas, hospitales y sistemas que atienden millones de usuarios. Escalable, seguro y de alto rendimiento.
+* Java ME — Micro Edition ??? La motocicleta ligera. Para dispositivos con pocos recursos: IoT, sistemas embebidos y equipos pequeños.
+
+Tema 2 — Tipos de Datos en Java
+Java es un lenguaje fuertemente tipado: cada dato debe declararse con un tipo específico, como cajas de almacenamiento de distintos tamaños.
+Ejemplo
+java
+int edad = 25;
+double precio = 19.99;
+char inicial = 'A';
+boolean activo = true;
+String nombre = "Java";
+Tipos Primitivos (8 tipos)
+Tipo Tamaño Descripción Analogía byte 1 byte Números pequeños (-128 a 127) Caja más pequeña short 2 bytes Enteros medianos Caja un poco más grande int 4 bytes Enteros estándar — el más usado Caja estándar long 8 bytes Enteros muy grandes Caja enorme float 4 bytes Decimales (menor precisión) Caja especial double 8 bytes Decimales (mayor precisión) Caja especial grande char 2 bytes Un solo carácter Unicode Caja para una letra boolean 1 bit true o false Interruptor de luz
+Tipos de Referencia
+* String — Texto inmutable
+* Clases — Objetos personalizados
+* Arrays — Colecciones del mismo tipo
+* Interfaces — Contratos de implementación
+* Enum — Constantes nombradas
+* Wrapper — Integer, Double, Boolean...
+Jerarquía de capacidad
+javascript
+byte ? short ? int ? long ? float ? double
+boolean no tiene orden de capacidad — solo almacena true o false, como un interruptor encendido/apagado.
+
+Tema 3 — Visual Studio Code vs Cursor AI
+Dos cocinas: una tradicional donde cocinas manualmente, y otra inteligente con un asistente que te ayuda en cada paso.
+?? Visual Studio Code — La navaja suiza para desarrolladores
+?? Cocina tradicional — todos los utensilios, pero haces casi todo manualmente.
+* Editor ligero, rápido y extensible
+* Autocompletado inteligente
+* Depuración avanzada e integración Git
+* Miles de extensiones disponibles
+* 100% personalizable y gratuito
+Ideal para: Control total, equipos con muchas tecnologías, proyectos que requieren extensiones específicas.
+? Cursor AI — El copiloto inteligente
+?? Cocina inteligente — un asistente te recomienda, corrige errores y acelera tu trabajo.
+* Basado en VS Code + IA integrada
+* Chat con tu código (AI Chat)
+* Generación y refactorización con IA
+* Edición multi-archivo contextual
+* Detección y corrección de errores
+Ideal para: Máxima productividad, automatización, proyectos complejos y generación rápida de código.
+Comparación rápida
+Característica VS Code Cursor AI IA integrada Limitada Muy avanzada Chat con código ? ? Generación de código ? ? Personalización Muy alta Alta Costo Gratis Freemium Mejor para Control y flexibilidad Productividad con IA
+
+Tema 4 — ¿Qué es un AI Engineer?
+Un profesional que diseña, desarrolla e implementa soluciones basadas en Inteligencia Artificial para resolver problemas reales.
+"Un AI Engineer es un profesional que diseña, desarrolla e implementa soluciones basadas en Inteligencia Artificial para resolver problemas reales y generar valor."
+¿Qué hace un AI Engineer?
+* ?? Diseña soluciones: crea soluciones de IA que resuelven necesidades del negocio.
+* ?? Integra modelos: conecta modelos de IA en productos, apps y procesos.
+* ?? Trabaja con datos: entrena, evalúa y mejora modelos con datos reales.
+* ?? Despliega sistemas: construye, prueba y despliega sistemas inteligentes escalables.
+¿Cómo trabaja un AI Engineer?
+1. Comprende el problema — Analiza la necesidad y define objetivos.
+2. Prepara los datos — Recopila, limpia y organiza información.
+3. Diseña la solución — Selecciona modelos y define estrategia.
+4. Desarrolla — Construye, entrena e integra la solución.
+5. Despliega — Lleva la solución a producción.
+6. Monitorea y mejora — Evalúa resultados y optimiza continuamente.
+¿Dónde se aplica?
+Automatización de procesos · Asistentes inteligentes · Análisis predictivo · Recomendaciones personalizadas · Detección de fraudes · Generación de contenido
+
+Tema 5 — Rol del Java AI Engineer
+Combina Backend Engineering, Full Stack Development y AI Engineering para construir productos inteligentes listos para el mercado.
+La fórmula
+Backend sólido con Java + Fullstack moderno con Angular + AI Engineering aplicado = Productos inteligentes listos para el mercado
+Los 6 pilares
+1. Backend Engineering — Java, Spring Boot, REST APIs, JWT, Docker, arquitectura backend.
+2. Bases de Datos — MySQL, PostgreSQL, modelado de datos, SQL y persistencia.
+3. Fullstack Development — Angular, TypeScript, HTML/CSS, dashboards, UX/UI moderno.
+4. AI Engineering — OpenAI, Claude, Prompt Engineering, LLMs, automatización inteligente.
+5. Sistemas Inteligentes — RAG, Embeddings, Vector DBs, AI Agents, orquestación de procesos.
+6. Herramientas Profesionales — Git, GitHub, Cursor AI, Swagger, Postman, JUnit, IntelliJ.
+Ruta progresiva de 3 niveles
+1. Nivel 1 — Java AI Backend Developer: fundamentos sólidos de backend con Java y herramientas modernas.
+2. Nivel 2 — Java AI Fullstack Developer: desarrollo Fullstack profesional con Angular y aplicaciones completas.
+3. Nivel 3 — AI Engineer Developer: AI Engineering aplicado a productos reales y sistemas inteligentes.
+ 
+Dev Senior Code · Java AI Engineer · Clase 1 Florida Global University
+
